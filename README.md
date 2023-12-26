@@ -13,7 +13,8 @@ for the up-to-date personal-data.
 - install ollama/qdrant (as docker is fine, too)
 - download the model from the huggingface page
 - run buildLocalModel.sh for creating a compl. model form the gguf file for ollama
-- edit/run localrunnerWithExistingIndex.py for creating an index in qdrant and fill this with your personal-data (json format are best way to go)
+- edit/run localrunnerWithoutIndex.py for creating an index in qdrant and fill this with your personal-data (json format are best way to go)
+- later use localrunnerWithExistingIndex.py
 - testing this terminal output
 - run startHttpEndpoint.sh to start a small Flask HTTP Endpoint
 - go to http://127.0.0.1:5000/process_form for playing around
