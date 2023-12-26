@@ -1,0 +1,1 @@
+FROM ./dolphin-2.5-mixtral-8x7b.Q4_K_M.gguf
