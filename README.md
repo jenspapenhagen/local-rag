@@ -18,9 +18,14 @@ for the up-to-date personal-data.
 - testing this terminal output
 - run startHttpEndpoint.sh to start a small Flask HTTP Endpoint
 - go to http://127.0.0.1:5000/process_form for playing around
-- edit httpEndpoint.py for later customisations
- 
+- test it with cURL
+  
+ 	```bash
+   curl -X POST http://127.0.0.1:5000/process_form -F 'query="What does the author think about Star Trek?"'
+  	```
+- edit httpEndpoint.py for later customizations
 
+  
 ### What is retrieval-augmented generation? ###
 RAG is an AI framework for retrieving facts from an external knowledge base to ground large language models (LLMs) 
 on the most accurate, up-to-date information and to give users insight into LLMs' generative process.
